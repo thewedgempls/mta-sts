@@ -22,8 +22,8 @@ The Google Admin console has a "compliance" section ([directions here](https://k
 
 The `docs/` folder at the root of this repo is where GitHub Pages looks for content that it should host under `https://mta-sts.thewedge.org/`. Anything not under that directory will not show up. Within the folder, there are two special files:
 
-* `docs/.nojekyll` is an empty file whose presence indicates to GitHub Pages that it should serve all files as-is, rather than using a program called Jekyll to generate the site. Weneed to serve a simple text file at a very specific path, so we want Jekyll disabled.
-* `docs/CNAME` tells GitHub Pages that our site will be hosted at `https://mta-sts.thewedge.org`, rather than the default `https://thewedgempls.github.io/mta-sts/`.
+* `docs/.nojekyll` is an empty file whose presence indicates to GitHub Pages that it should serve all files as-is, rather than using a program called Jekyll to generate the site. We're serving a simple text file at a very specific path, so we want Jekyll disabled.
+* `docs/CNAME` tells GitHub Pages that our site will be hosted at `https://mta-sts.thewedge.org/`, rather than the default `https://thewedgempls.github.io/mta-sts/`.
 
 The file at `docs/.well-known/mta-sts.txt` is the actual MTA-STS policy file, and the only file that'll end up being served by GitHub Pages.
 
